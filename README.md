@@ -53,12 +53,14 @@ Consider fault is present at each node. Then traverse throuth output of circuit 
 # Parallel Fault Simulation
 Parallel fault simulation most effective, Circuit consists of only logic gates where all gates are assumed to have the same delay. Simulate stuck-at fault using bit-parallelism of logical operations in a digital computer.
 
-The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output.
+The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output and calculate fault coverage for corresponding input vector.
 
 
 # Deductive Fault Simulation
 Use gate level model with zero or unit delay and two level signal.
-This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate.
+This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate. 
+
+The code takes input_vector as input and perform deductive fault simulation and tabulate the propagated faults at output node and calculate fault coverage for corresponding input vector.
 
 
 # Limitations of Code
