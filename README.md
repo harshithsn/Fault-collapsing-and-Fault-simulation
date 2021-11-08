@@ -8,7 +8,7 @@ This project is based on Digital VLSI Testing and Testability. The netlist is gi
 3) install plotly Python library. This Python library is used to tabulate simulation result.     ```pip install plotly``` 
 4) Change input vectors as needed, numbering of input vector is from increasing order of inputs of the circuit. This input vector is used for both Parallel fault simulation and Dominace fault simulation.
 
-# Example (netlist I used for simulation)
+# Example (4:1 MUX netlist is used for simulation)
 ```
 NAND 5 2 3
 AND 13 6 7
