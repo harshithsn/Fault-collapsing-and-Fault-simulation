@@ -61,7 +61,7 @@ Use gate level model with zero or unit delay and two level signal.
 This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate.
 
 
-# Limitaions of Code
+# Limitations of Code
 1) Netlist need to be numbered in ascending order from input to output.
 2) The circuit will may/may not work if feedback is given.
 3) Works only for AND,OR,NAND,NOR gates. The not gate should be modeled as NAND inverter / NOR inverter
