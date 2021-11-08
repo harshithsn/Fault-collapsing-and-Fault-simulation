@@ -55,10 +55,15 @@ Parallel fault simulation most effective, Circuit consists of only logic gates w
 
 The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output and calculate fault coverage for corresponding input vector.
 
+![pfs1](https://user-images.githubusercontent.com/63975346/140797688-9d63f311-11b5-4126-a3de-f76bb0a34936.png)
+
 
 # Deductive Fault Simulation
 Use gate level model with zero or unit delay and two level signal.
 This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate. 
+
+![dfs1](https://user-images.githubusercontent.com/63975346/140797817-05ed62f0-a3f4-460b-aea9-737791b805f2.png)
+
 
 The code takes input_vector as input and perform deductive fault simulation and tabulate the propagated faults at output node and calculate fault coverage for corresponding input vector.
 
