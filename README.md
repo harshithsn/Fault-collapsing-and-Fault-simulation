@@ -27,7 +27,6 @@ FANOUT 1 2 8 12
 FANOUT 2 3 4
 FANOUT 5 6 10
 FANOUT 18 19 20 22
-
 ```
 
 ![mux-01](https://user-images.githubusercontent.com/63975346/140762141-6ed6b118-ce2d-4609-ae6a-2e8b598c3c0f.png)
