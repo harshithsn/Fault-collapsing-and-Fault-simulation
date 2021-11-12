@@ -82,6 +82,6 @@ The code takes input_vector as input and perform deductive fault simulation and 
 4) Can't run netlist with more than 2 input gates.
 
 # Acknowledgement
-Rathnamala Rao, Assistant Professor, NITK Surathkal
+Dr. Rathnamala Rao, Assistant Professor, NITK Surathkal
 
 # THANK YOU
