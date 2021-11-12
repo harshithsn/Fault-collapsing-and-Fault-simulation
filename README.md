@@ -79,7 +79,7 @@ The code takes input_vector as input and perform deductive fault simulation and 
 1) Netlist need to be numbered in ascending order from input to output.
 2) The circuit will may/may not work if feedback is given.
 3) Works only for AND,OR,NAND,NOR gates. The not gate should be modeled as NAND inverter / NOR inverter.
-4) Can't run netlist with more then 2 input gates.
+4) Can't run netlist with more than 2 input gates.
 
 # Acknowledgement
 Rathnamala Rao, Assistant Professor, NITK Surathkal
