@@ -56,14 +56,20 @@ Parallel fault simulation most effective, Circuit consists of only logic gates w
 
 The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output and calculate fault coverage for corresponding input vector.
 
-![pfs1](https://user-images.githubusercontent.com/63975346/140797688-9d63f311-11b5-4126-a3de-f76bb0a34936.png)
+![pfr](https://user-images.githubusercontent.com/63975346/141422992-92bb4098-e5b9-4cc2-b5d7-f0a91d36b956.png)
+
+![pf](https://user-images.githubusercontent.com/63975346/141421976-1375b69f-5977-4242-9bfd-cbc257ca025d.PNG)
+
 
 
 # Deductive Fault Simulation
 Use gate level model with zero or unit delay and two level signal.
 This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate. 
 
-![dfs1](https://user-images.githubusercontent.com/63975346/140797817-05ed62f0-a3f4-460b-aea9-737791b805f2.png)
+![drf](https://user-images.githubusercontent.com/63975346/141422620-380c164a-6cbf-4613-8a6d-d461e03114b1.png)
+
+![df](https://user-images.githubusercontent.com/63975346/141422010-d60948d9-755b-49d2-ae14-d02ae49c4f0f.PNG)
+
 
 
 The code takes input_vector as input and perform deductive fault simulation and tabulate the propagated faults at output node and calculate fault coverage for corresponding input vector.
@@ -72,7 +78,8 @@ The code takes input_vector as input and perform deductive fault simulation and 
 # Limitations of Code
 1) Netlist need to be numbered in ascending order from input to output.
 2) The circuit will may/may not work if feedback is given.
-3) Works only for AND,OR,NAND,NOR gates. The not gate should be modeled as NAND inverter / NOR inverter
+3) Works only for AND,OR,NAND,NOR gates. The not gate should be modeled as NAND inverter / NOR inverter.
+4) Can't run netlist with more then 2 input gates.
 
 # Acknowledgement
 Rathnamala Rao, Assistant Professor, NITK Surathkal
