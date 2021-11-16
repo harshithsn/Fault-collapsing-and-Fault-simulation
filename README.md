@@ -56,10 +56,9 @@ Parallel fault simulation most effective, Circuit consists of only logic gates w
 
 The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output and calculate fault coverage for corresponding input vector.
 
-![pfr](https://user-images.githubusercontent.com/63975346/141422992-92bb4098-e5b9-4cc2-b5d7-f0a91d36b956.png)
+![pf2](https://user-images.githubusercontent.com/63975346/141890694-709cc906-b26e-4c53-99a7-d1864a58f6b1.png)
 
-![pf](https://user-images.githubusercontent.com/63975346/141421976-1375b69f-5977-4242-9bfd-cbc257ca025d.PNG)
-
+![pfsr](https://user-images.githubusercontent.com/63975346/141890717-ec6a1146-62aa-4962-af8f-23d74d54fcd2.png)
 
 
 # Deductive Fault Simulation
